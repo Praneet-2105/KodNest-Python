@@ -18,5 +18,9 @@ elif num < 0:              # elif n < 0
 else:                       # else
     print("Zero")           # show"Zero"
                             # Stop 
+'''hello this is multiline 
+comments'''
 
+"""and this is also
+multilline comments"""
 
