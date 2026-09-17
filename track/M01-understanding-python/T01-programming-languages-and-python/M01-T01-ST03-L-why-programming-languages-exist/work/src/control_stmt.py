@@ -78,23 +78,50 @@ match month:
 
 # for loop with range
 # Write a Python program to print numbers from 1 to 5 using a for loop.
+for i in range(1,6):
+    print(i)
 # for loop – first 5 numbers
 # Write a Python program to print the first five numbers starting from 0 using a for loop.
+for i in range(5):
+    print(i)
 # for loop with if condition
 # Write a Python program to print all even numbers from 1 to 10 using a for loop.
+for i in range(1,11):
+    if i%2 == 0:
+        print(i)
 # while loop
 # Write a Python program to print numbers from 0 to 4 using a while loop.
+i = 0
+while(i<=4):
+    print(i)
+    i+=1
+
 # Jumping Statements
 
 # break statement
 # Write a Python program to print numbers from 1 to 5, but stop the loop when the number reaches 4.
+for i in range(1,6):
+    if i == 4:
+        break
+    print(i)
 # continue statement
 # Write a Python program to print numbers from 1 to 5, but skip the number 4 using continue.
+for i in range(1,6):
+    if i == 4:
+        continue
+    print(i)
 # pass statement
 # Write a Python program using a for loop from 1 to 9 and use pass as a placeholder inside the loop.
-# pass in function
+for i in range(1,10):
+    pass
+# pass in function 
 # Write a Python program to create a function called add() without implementing its logic. Use pass inside the function.
+def add():
+    pass
 # Return Statement
 
 # return statement
 # Write a Python function called square(n) that accepts a number and returns its square. Call the function with 3 and print the result.
+def square(n):
+    return n*n
+print(square(4))
